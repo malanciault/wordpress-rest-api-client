@@ -3,7 +3,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\UriInterface;
-use Vnn\WpApiClient\Http\GuzzleAdapter;
+use Malanciault\WpApiClient\Http\GuzzleAdapter;
 
 describe(GuzzleAdapter::class, function () {
     describe('makeUri()', function () {

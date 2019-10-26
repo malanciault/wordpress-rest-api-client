@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestInterface;
 
 /**
  * Class GuzzleAdapter
- * @package Vnn\Infrastructure\Http\Client
+ * @package Malanciault\Infrastructure\Http\Client
  */
 class GuzzleAdapter implements ClientInterface
 {

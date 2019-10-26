@@ -4,7 +4,7 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 /**
  * Class Media
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 class Media extends AbstractWpEndpoint
 {

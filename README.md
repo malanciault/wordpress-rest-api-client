@@ -30,9 +30,9 @@ composer require guzzlehttp/guzzle
 Example:
 
 ```php
-use Vnn\WpApiClient\Auth\WpBasicAuth;
-use Vnn\WpApiClient\Http\GuzzleAdapter;
-use Vnn\WpApiClient\WpClient;
+use Malanciault\WpApiClient\Auth\WpBasicAuth;
+use Malanciault\WpApiClient\Http\GuzzleAdapter;
+use Malanciault\WpApiClient\WpClient;
 
 require 'vendor/autoload.php';
 

@@ -4,7 +4,7 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 /**
  * Class Comments
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 class Comments extends AbstractWpEndpoint
 {

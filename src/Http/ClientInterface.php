@@ -8,7 +8,7 @@ use Psr\Http\Message\UriInterface;
 
 /**
  * Interface ClientInterface
- * @package Vnn\WpApiClient\Http
+ * @package Malanciault\WpApiClient\Http
  */
 interface ClientInterface
 {

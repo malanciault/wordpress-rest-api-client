@@ -1,8 +1,8 @@
 <?php
 
 use GuzzleHttp\Psr7\Request;
-use Vnn\WpApiClient\Endpoint\AbstractWpEndpoint;
-use Vnn\WpApiClient\WpClient;
+use Malanciault\WpApiClient\Endpoint\AbstractWpEndpoint;
+use Malanciault\WpApiClient\WpClient;
 
 describe(AbstractWpEndpoint::class, function () {
     describe('get()', function () {

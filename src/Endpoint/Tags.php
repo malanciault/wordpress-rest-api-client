@@ -4,7 +4,7 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 /**
  * Class Tags
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 class Tags extends AbstractWpEndpoint
 {

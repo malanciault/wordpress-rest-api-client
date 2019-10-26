@@ -5,13 +5,13 @@ namespace Malanciault\WpApiClient;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
-use Vnn\WpApiClient\Auth\AuthInterface;
-use Vnn\WpApiClient\Endpoint;
-use Vnn\WpApiClient\Http\ClientInterface;
+use Malanciault\WpApiClient\Auth\AuthInterface;
+use Malanciault\WpApiClient\Endpoint;
+use Malanciault\WpApiClient\Http\ClientInterface;
 
 /**
  * Class WpClient
- * @package Vnn\WpApiClient
+ * @package Malanciault\WpApiClient
  *
  * @method Endpoint\Categories categories()
  * @method Endpoint\Comments comments()
@@ -80,7 +80,7 @@ class WpClient
     public function __call($endpoint, array $args)
     {
         if (!isset($this->endPoints[$endpoint])) {
-            $class = 'Vnn\WpApiClient\Endpoint\\' . ucfirst($endpoint);
+            $class = 'Malanciault\WpApiClient\Endpoint\\' . ucfirst($endpoint);
             if (class_exists($class)) {
                 $this->endPoints[$endpoint] = new $class($this);
             } else {

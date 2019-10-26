@@ -4,7 +4,7 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 /**
  * Class PostTypes
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 class PostTypes extends AbstractWpEndpoint
 {

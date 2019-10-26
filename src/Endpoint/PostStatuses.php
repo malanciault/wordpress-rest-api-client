@@ -4,7 +4,7 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 /**
  * Class PostStatuses
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 class PostStatuses extends AbstractWpEndpoint
 {

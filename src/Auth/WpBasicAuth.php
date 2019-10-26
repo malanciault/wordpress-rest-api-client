@@ -6,7 +6,7 @@ use Psr\Http\Message\RequestInterface;
 
 /**
  * Class WpBasicAuth
- * @package Vnn\WpApiClient\Auth
+ * @package Malanciault\WpApiClient\Auth
  */
 class WpBasicAuth implements AuthInterface
 {

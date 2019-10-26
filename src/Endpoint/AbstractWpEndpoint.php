@@ -4,11 +4,11 @@ namespace Malanciault\WpApiClient\Endpoint;
 
 use GuzzleHttp\Psr7\Request;
 use RuntimeException;
-use Vnn\WpApiClient\WpClient;
+use Malanciault\WpApiClient\WpClient;
 
 /**
  * Class AbstractWpEndpoint
- * @package Vnn\WpApiClient\Endpoint
+ * @package Malanciault\WpApiClient\Endpoint
  */
 abstract class AbstractWpEndpoint
 {

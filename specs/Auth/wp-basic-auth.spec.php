@@ -1,7 +1,7 @@
 <?php
 
 use GuzzleHttp\Psr7\Request;
-use Vnn\WpApiClient\Auth\WpBasicAuth;
+use Malanciault\WpApiClient\Auth\WpBasicAuth;
 
 describe(WpBasicAuth::class, function () {
     describe('addCredentials()', function () {
