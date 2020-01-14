@@ -38,13 +38,8 @@ abstract class AbstractWpEndpoint
     {
         $endpoint = $this->getEndpoint();
         $uri = $endpoint;
-        //if ($endpoint == "/wp-json/wp/v2/portfolio") {
-          //  $uri .= (is_null($id)?'': '?p=' . $id);
-        //} else {
-            $uri .= (is_null($id)?'': '/' . $id);
-        //}
+        $uri .= (is_null($id)?'': '/' . $id);
         $uri .= (is_null($params)?'': '?' . http_build_query($params));
-x($uri);
         $request = new Request('GET', $uri);
         $response = $this->client->send($request);
 
